@@ -1,0 +1,17 @@
+[project]
+name = "lab1-devops"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "anastasiiakhymych", email = "anastasiia.khymych.kb.2025@lpnu.ua" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+lab1-devops = "lab1_devops:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
